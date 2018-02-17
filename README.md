@@ -4,10 +4,9 @@ A project for learning/exercise purposes with Redux and Firebase.
 
 ## Setting up Firebase
 
-Log into [firebase.google.com](https://firebase.google.com/) and create a new project.
-Under `Add Firebase to your web app` you will find your Firebase config.
-
-Create `firebase.js` in the goal_coach `/src` with the following:
+* Log into [firebase.google.com](https://firebase.google.com/) and create a new project.
+* Under `Develop/Authentication/Sign-In Method` enable `Email/Password`
+* Under `Add Firebase to your web app` you will find your Firebase config. Create `firebase.js` in the goal_coach `/src` with the following:
 
 ```ruby
 import * as firebase from 'firebase';
