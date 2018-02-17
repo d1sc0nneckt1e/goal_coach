@@ -7,7 +7,7 @@ A project for learning/exercise purposes with Redux and Firebase.
 Log into [firebase.google.com](https://firebase.google.com/) and create a new project.
 In your new project under `Add Firebase to your web app` you will find your Firebase config.
 
-Create `firebase.js` in `/src` and paste your Firebase config (apiKey, authDomain, databaseURL... ) in the following:
+Create `firebase.js` in `/src` and paste your Firebase config (`apiKey`, `authDomain`, `databaseURL`... ) in the following:
 
 `import * as firebase from 'firebase';
 
