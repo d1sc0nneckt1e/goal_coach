@@ -9,7 +9,8 @@ In your new project under `Add Firebase to your web app` you will find your Fire
 
 Create `firebase.js` in `/src` and paste your Firebase config (`apiKey`, `authDomain`, `databaseURL`... ) in the following:
 
-`import * as firebase from 'firebase';
+```ruby
+import * as firebase from 'firebase';
 
 const config = {
     apiKey: "",
@@ -20,7 +21,8 @@ const config = {
     messagingSenderId: ""
   };
 
-export const firebaseApp =  firebase.initializeApp(config);`
+export const firebaseApp =  firebase.initializeApp(config);
+```
 
 You can now launch the app in development mode by running:
 
