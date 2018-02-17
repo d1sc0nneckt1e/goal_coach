@@ -33,6 +33,11 @@ $ npm start
 ```
 
 Then open [http://localhost:3000/](http://localhost:3000/) to see your app.<br>
+You can also see your app under the following links:
+[http://localhost:3000/](http://localhost:3000/app)
+[http://localhost:3000/](http://localhost:3000/signin)
+[http://localhost:3000/](http://localhost:3000/signup)
+
 When you’re ready to deploy to production, create a minified bundle with `npm run build`.
 
 For more information refer to Create React App documentation:
