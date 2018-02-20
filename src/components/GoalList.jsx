@@ -5,6 +5,7 @@ import { setGoals } from '../actions';
 import GoalItem from './GoalItem';
 
 class GoalList extends Component{
+  
   componentDidMount(){
     goalRef.on('value', snap => {
       let goals = [];
